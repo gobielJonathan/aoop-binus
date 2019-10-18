@@ -1,8 +1,13 @@
 
 public class Lecturer extends Employee {
 
-	public Lecturer(char[] id, String nama) {
-		super(id, nama);
+	public Lecturer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Lecturer(BinusianId binusianId, String nama) {
+		super(binusianId, nama);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -15,7 +20,7 @@ public class Lecturer extends Employee {
 	@Override
 	void absent() {
 		// TODO Auto-generated method stub
-		System.out.println("lecturer with " + getId() + " was absent");
+		System.out.println("lecturer with " + getBinusianId() + " was absent");
 	}
 
 }

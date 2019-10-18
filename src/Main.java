@@ -2,11 +2,16 @@
 public class Main {
 
 	public Main() {
-		// TODO Auto-generated constructor stub
-		Binusian student = new Student("BN001".toCharArray(), "bahrul");
+		// TODO Aut-generated constructor stub
+		BinusianId binusianId = new BinusianId("BN0111","201631513" );
+		
+		Binusian student = new Student(binusianId, "bahrul");
+		
 		student.absent();
 
-		Employee teacher = new Lecturer("BN002".toCharArray(), "budi");
+		binusianId = new BinusianId("BN002", "-");
+		
+		Employee teacher = new Lecturer(binusianId, "budi");
 		teacher.absent();
 		teacher.getPaid();
 

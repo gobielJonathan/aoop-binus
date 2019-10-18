@@ -1,13 +1,17 @@
 
 public abstract class Binusian {
 
-	private char[] id;
+	private BinusianId binusianId;
 	private String nama;
 
-	public Binusian(char[] id, String nama) {
+	public Binusian(BinusianId binusianId, String nama) {
 		super();
-		this.id = id;
+		this.binusianId = binusianId;
 		this.nama = nama;
+	}
+
+	public BinusianId getBinusianId() {
+		return binusianId;
 	}
 
 	public Binusian() {
@@ -15,10 +19,6 @@ public abstract class Binusian {
 	}
 
 	abstract void absent();
-
-	public char[] getId() {
-		return id;
-	}
 
 	public String getNama() {
 		return nama;
