@@ -1,23 +1,23 @@
 
 public abstract class Binusian {
 
-	private String id;
+	private char[] id;
 	private String nama;
 
-	public Binusian(String id, String nama) {
+	public Binusian(char[] id, String nama) {
 		super();
 		this.id = id;
 		this.nama = nama;
 	}
 
-	abstract void absent();
-
-	public String getId() {
-		return id;
+	public Binusian() {
+		// TODO Auto-generated constructor stub
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	abstract void absent();
+
+	public char[] getId() {
+		return id;
 	}
 
 	public String getNama() {

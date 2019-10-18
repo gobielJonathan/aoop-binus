@@ -1,8 +1,7 @@
 
 public class Student extends Binusian {
 
-	
-	public Student(String id, String nama) {
+	public Student(char[] id, String nama) {
 		super(id, nama);
 		// TODO Auto-generated constructor stub
 	}
@@ -10,7 +9,7 @@ public class Student extends Binusian {
 	@Override
 	void absent() {
 		// TODO Auto-generated method stub
-		System.out.println("Student with binusian number " + getId() + " already absent");
+		System.out.println("Student with binusian number " + getId().toString() + " already absent");
 	}
 
 }

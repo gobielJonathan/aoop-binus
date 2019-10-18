@@ -1,12 +1,10 @@
 
 public abstract class Employee extends Binusian {
 
-	
-	public Employee(String id, String nama) {
-		super(id, nama);
+	public Employee(char[] id, String nama) {
 		// TODO Auto-generated constructor stub
+		super(id, nama);
 	}
-
 	abstract public  void getPaid();
 
 }

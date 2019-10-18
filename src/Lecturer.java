@@ -1,7 +1,7 @@
 
 public class Lecturer extends Employee {
 
-	public Lecturer(String id, String nama) {
+	public Lecturer(char[] id, String nama) {
 		super(id, nama);
 		// TODO Auto-generated constructor stub
 	}
