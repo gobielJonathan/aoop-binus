@@ -7,7 +7,7 @@ public class Lecturer extends Employee {
 	}
 
 	@Override
-	void getPaid() {
+	public void getPaid() {
 		// TODO Auto-generated method stub
 
 	}

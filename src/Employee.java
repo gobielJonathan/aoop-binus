@@ -7,6 +7,6 @@ public abstract class Employee extends Binusian {
 		// TODO Auto-generated constructor stub
 	}
 
-	abstract void getPaid();
+	abstract public  void getPaid();
 
 }

@@ -2,12 +2,13 @@
 public class Main {
 
 	public Main() {
-		// TODO Aut-generated constructor stub
+		// TODO Auto-generated constructor stub
 		Binusian student = new Student("BN001", "bahrul");
 		student.absent();
 
-		Binusian teacher = new Lecturer("BN002", "budi");
+		Employee teacher = new Lecturer("BN002", "budi");
 		teacher.absent();
+		teacher.getPaid();
 
 	}
 
