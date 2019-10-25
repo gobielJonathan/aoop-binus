@@ -1,17 +1,18 @@
-
 public class Main {
+    public Main() {
+        Animal hiu = new Hiu();
 
-	public Main() {
-		// TODO Aut-generated constructor stub
-		Binusian student = new Student("BN001", "bahrul");
-		student.absent();
+        try {
+            hiu.eatEgg();
+            hiu.eatMeat();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            System.out.println(e.getMessage());
+        }
+    }
 
-		Binusian teacher = new Lecturer("BN002", "budi");
-		teacher.absent();
-
-	}
-
-	public static void main(String[] args) {
-		new Main();
-	}
+    public static void main(String[] args) {
+        new Main();
+    }
 }
