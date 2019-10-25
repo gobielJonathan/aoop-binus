@@ -12,7 +12,7 @@ public class Chicken extends Animal {
     }
 
     @Override
-    public void eatEgg()  throws Exception{
+    public void eatEgg() {
         System.out.println("can eat egg");
     }
 }
